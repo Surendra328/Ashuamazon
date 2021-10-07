@@ -1,7 +1,7 @@
 FROM node:10
-MAINTAINER ashuu
+MAINTAINER ashuu-jayasree
 WORKDIR /usr/app
 COPY . .
 RUN npm install
-EXPOSE 9981
+EXPOSE 9000
 CMD ["node","app.js"]
