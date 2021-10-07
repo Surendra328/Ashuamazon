@@ -1,4 +1,5 @@
 FROM node:10
+MAINTAINER ashuu
 WORKDIR /usr/app
 COPY . .
 RUN npm install
